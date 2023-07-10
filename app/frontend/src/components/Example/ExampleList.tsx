@@ -9,11 +9,11 @@ export type ExampleModel = {
 
 const EXAMPLES: ExampleModel[] = [
     {
-        text: "What is included in my Northwind Health Plus plan that is not in standard?",
-        value: "What is included in my Northwind Health Plus plan that is not in standard?"
+        text: "What treatment options are there for someone with stage three lung cancer?",
+        value: "What treatment options are there for someone with stage three lung cancer?"
     },
-    { text: "What happens in a performance review?", value: "What happens in a performance review?" },
-    { text: "What does a Product Manager do?", value: "What does a Product Manager do?" }
+    { text: "Generate a pie chart showing the frequency of medications paid for by medicaid during the month of May at Syneos Health.", value: "Generate a pie chart showing the frequency of medications paid for by medicaid during the month of May at Syneos Health." },
+    { text: "How many Syneos Health transactions during the month of May had no federal insurance? Make a frequency bar graph showing the non federal vs other transaction type for each day of the month of May.", value: "How many Syneos Health transactions during the month of May had no federal insurance? Make a frequency bar graph showing the non federal vs other transaction type for each day of the month of May." }
 ];
 
 interface Props {
